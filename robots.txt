@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://muppidathi-sys.github.io/BrosAndBitez/sitemap.xml
