@@ -60,6 +60,38 @@ summary::-webkit-details-marker {
     object-fit: cover;
     border-radius: 6px;
 }
+.menu-item.fade-up{
+    animation:fade-up .3s ease-in-out;
+}
+.logo {
+    animation: popup .5s ease-in-out;
+}
+
+@keyframes popup {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(1.2);
+        opacity: 0.5;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes fade-up {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
 
 .item-name {
     font-weight: normal;
